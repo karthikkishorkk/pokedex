@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
-import { getPokemonList, searchPokemonByName } from "../services/pokemonService";
-import PokemonCard from "../components/PokemonCard";
-import TypeFilter from "../components/TypeFilter";
+import { getPokemonList, searchPokemonByName } from "../../services/pokemonService";
+import PokemonCard from "../../components/PokemonCard";
+import TypeFilter from "../../components/TypeFilter";
 import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
 import './Home.css';

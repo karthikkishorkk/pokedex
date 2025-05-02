@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import { getPokemonDetails, getEvolutionChain } from "../services/pokemonService";
+import { getPokemonDetails, getEvolutionChain } from "../../services/pokemonService";
 import './Details.css';
 
 const Details = () => {
