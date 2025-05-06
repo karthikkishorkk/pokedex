@@ -1,0 +1,108 @@
+.compare-container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .compare-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #ff1a1a;
+  }
+  
+  .compare-inputs {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .compare-inputs input {
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    width: 250px;
+    outline: none;
+  }
+  
+  .compare-inputs button {
+    padding: 0.6rem 1.2rem;
+    background-color: #ff4141;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .compare-inputs button:hover {
+    background-color: #e60000;
+  }
+  
+  .error {
+    color: #d8000c;
+    background-color: #ffdddd;
+    padding: 0.75rem;
+    border-radius: 6px;
+    margin: 1rem auto;
+    width: fit-content;
+  }
+  
+  .compare-result-multi {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .pokemon-card {
+    position: relative;
+    background: white;
+    border-radius: 15px;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .pokemon-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .pokemon-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+  }
+  
+  .pokemon-card h3 {
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .pokemon-card p {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 2px 0;
+  }
+  
+  .remove-btn {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    background: transparent;
+    border: none;
+    font-size: 1.2rem;
+    color: #ff4d4d;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
