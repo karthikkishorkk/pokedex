@@ -199,13 +199,14 @@
 }
 
 .pokemon-name {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--text-primary, #0f172a);
-  margin: 0;
+  font-size: 1.75rem !important; /* override */
+  font-weight: 800;
+  color: var(--text-primary, #0f172a) !important;
+  margin: 0.5rem 0 !important;
   text-align: center;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  text-transform: capitalize;
 }
+
 
 /* Type Badges */
 .type-badges {
