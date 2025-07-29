@@ -60,6 +60,7 @@
     margin-top: 2rem;
   }
   
+  
   .pokemon-card {
     position: relative;
     background: white;
@@ -81,12 +82,12 @@
     margin-bottom: 0.5rem;
   }
   
-  .pokemon-card h3 {
-    text-transform: capitalize;
-    font-size: 1.2rem;
-    color: #333;
-    margin-bottom: 0.5rem;
-  }
+.compare-card .pokemon-card h3 {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
   
   .pokemon-card p {
     font-size: 0.9rem;
@@ -105,4 +106,3 @@
     cursor: pointer;
     font-weight: bold;
   }
-  
