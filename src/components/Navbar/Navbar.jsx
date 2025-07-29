@@ -3,7 +3,6 @@ import { Link, useLocation } from 'react-router-dom';
 import { useFavourites } from '../../context/FavouritesContext';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import HomeIcon from '@mui/icons-material/Home';
-import CompareArrowsIcon from '@mui/icons-material/CompareArrows';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import './Navbar.css';
@@ -61,11 +60,6 @@ const Navbar = () => {
       label: 'Favourites',
       icon: <FavoriteIcon className="nav-icon" />,
       badge: favourites.length > 0 ? favourites.length : null,
-    },
-    {
-      path: '/compare',
-      label: 'Compare',
-      icon: <CompareArrowsIcon className="nav-icon" />,
     },
   ];
 
