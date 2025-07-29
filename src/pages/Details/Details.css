@@ -477,9 +477,9 @@
 .stat-value {
   font-weight: 700;
   font-size: 1.3rem; /* Slightly larger */
-  min-width: 70px; /* Increased width */
+  min-width: 60px; /* Increased width */
   text-align: right;
-  padding-left: 1rem; /* Added padding */
+  padding-left: 0.5rem; /* Added padding */
 }
 
 .stat-bar-container {
