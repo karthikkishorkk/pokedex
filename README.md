@@ -4,6 +4,8 @@ A modern, responsive Pokédex web application built with React that allows users
 
 ![Pokédex App Screenshot](./screenshots/app-HomePage1.png)
 ![Pokédex App Screenshot](./screenshots/app-HomePage2.png)
+![Favourites Page Screenshot](./screenshots/app-FavouritesPage.png)
+
 
 ## ✨ Features
 
@@ -119,8 +121,7 @@ src/
 │   ├── Details/        # Detailed Pokémon view
 │   └── Favourites/     # Favorites management
 ├── context/            # React Context for state management
-├── services/           # API service functions
-└── utils/              # Helper utilities
+└── services/           # API service functions
 ```
 
 ## 🔧 Key Implementation Details
