@@ -2,7 +2,8 @@
 
 A modern, responsive Pokédex web application built with React that allows users to explore, search, and favorite their beloved Pokémon. This app provides detailed information about Pokémon with a beautiful, intuitive interface.
 
-![Pokédex App Screenshot](./screenshots/app-preview.png)
+![Pokédex App Screenshot](./screenshots/app-HomePage1.png)
+![Pokédex App Screenshot](./screenshots/app-HomePage2.png)
 
 ## ✨ Features
 
